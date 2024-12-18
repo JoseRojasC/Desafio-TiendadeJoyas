@@ -1,0 +1,20 @@
+# Ignorar dependencias
+node_modules/
+
+# Ignorar configuraciones sensibles
+.env
+
+# Ignorar logs y archivos de caché
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de salida
+dist/
+build/
+
+# Ignorar configuraciones de IDE
+.vscode/
+.DS_Store
+Thumbs.db
